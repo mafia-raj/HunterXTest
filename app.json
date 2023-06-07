@@ -1,112 +1,184 @@
 {
-  "name": "Hellboy Spam Bot",
-  "description": "Hellboy Spam Bot For Telegram To Spam In Group's!",
-  "logo": "https://te.legra.ph/file/5135ac513a382c35c3650.jpg",
+    "name": "LegendSpam",
+    "description": "Spamming Bot Made By LegendBoy @LegendBoy_OP",
+    "logo": "https://te.legra.ph/file/315ec5fe03f2a612139b3.jpg",
     "keywords": [
-    "telegram",
-    "userbot",
-    "plugin",
-    "modular",
-    "productivity"
-  ],
-  "repository": "https://github.com/BROTHERHOODOP/Hellboyspam",
-  "website": "https://github.com/BROTHERHOODOP",
-  "success_url": "https://t.me/ITS_HELLL_BOYYY",
-  "env": {
-    "BOT_TOKEN1": {
-      "description": "Enter Your Bot Token 1. Master Bot (Main Bot). Get It From @BotFather!",
-      "value": ""
+        "telegram",
+        "pyrogram",
+        "telegrambot",
+        "legendboy",
+        "Botspam"
+    ],
+    "repository": "https://github.com/LEGEND-AI/BOTSPAM",
+    "website": "https://t.me/LegendBot_Owner",
+    "success_url": "https://t.me/LegendBot_Owner",
+    "env": {       
+        "ENV": {
+            "description": "dont edit this",
+            "value": "ANYTHING"
+        },
+        "BOT_TOKEN": {
+            "description": "Use @BotFather. To Get BOT_TOKEN",
+            "value": ""
+        },
+        "BOT_TOKEN2": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN3": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN4": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false       
+        },
+        "BOT_TOKEN5": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false         
+        },
+        "BOT_TOKEN6": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false     
+        },
+        "BOT_TOKEN7": {
+            "description": "Use @BotFather. To Get BOT_TOKEN",
+            "value": "",
+            "required": false       
+        },
+        "BOT_TOKEN8": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false         
+        },
+        "BOT_TOKEN9": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false         
+        },
+        "BOT_TOKEN10": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false        
+        },
+        "BOT_TOKEN11": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN12": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN13": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN14": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false       
+        },
+        "BOT_TOKEN15": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false         
+        },
+        "BOT_TOKEN16": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false     
+        },
+        "BOT_TOKEN17": {
+            "description": "Use @BotFather. To Get BOT_TOKEN",
+            "value": "",
+            "required": false       
+        },
+        "BOT_TOKEN18": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false         
+        },
+        "BOT_TOKEN19": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false         
+        },
+        "BOT_TOKEN20": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false        
+        },
+        "BOT_TOKEN21": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN22": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN23": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN24": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN25": {
+            "description": "Use @BotFather. To Get BOT_TOKEN.",
+            "value": "",
+            "required": false
+        },
+        "SUDO_USERS": {
+            "description": "Owner Id Get It From start @missrose_bot , then do /id",
+            "value": ""        
+        },
+        "HANDLER": {
+            "description": "Put Your Handler Anything Here",
+            "value": "/",
+            "required": false 
+        },
+        "START_PIC": {
+            "description": "Put telegraph link anyone",
+            "value":"",
+            "required": false
+        },
+        "HELP_PIC": {
+            "description": "Put telegraph link anyone",
+            "value":"",
+            "required": false
+        },
+        "PING_PIC": {
+            "description": "Put telegraph link anyone",
+            "value":"",
+            "required": false
+        },
+        "START_MESSAGE": {
+            "description": "Write Your message that will show you when you start bot",
+            "value":"",
+            "required": false
+        }
+        "LOG_CHANNEL": {
+            "description": "Paste here log group id",
+            "value":"",
+            "required": false
+        }
     },
-    "BOT_TOKEN2": {
-      "description": "Enter Your Bot Token 2. Get It From @BotFather!",
-      "value": "",
-      "required": false
-    },
-    "BOT_TOKEN3": {
-      "description": "Enter Your Bot Token 3. Get It From @BotFather!",
-      "value": "",
-      "required": false
-    },
-    "BOT_TOKEN4": {
-      "description": "Enter Your Bot Token 4. Get It From @BotFather!",
-      "value": "",
-      "required": false
-    },
-    "BOT_TOKEN5": {
-      "description": "Enter Your Bot Token 5. Get It From @BotFather!",
-      "value": "",
-      "required": false
-},
-    "BOT_TOKEN6": {
-      "description": "Enter Your Bot Token 6. Get It From @BotFather!",
-      "value": "",
-      "required": false
-    },
-    "BOT_TOKEN7": {
-      "description": "Enter Your Bot Token 7. Get It From @BotFather!",
-      "value": "",
-      "required": false
-},
-    "BOT_TOKEN8": {
-      "description": "Enter Your Bot Token 8. Get It From @BotFather!",
-      "value": "",
-      "required": false
-},
-    "BOT_TOKEN9": {
-      "description": "Enter Your Bot Token 9. Get It From @BotFather!",
-      "value": "",
-      "required": false
-},
-    "BOT_TOKEN10": {
-      "description": "Enter Your Bot Token 10. Get It From @BotFather!",
-      "value": "",
-      "required": false
-    },
-    "OWNER_NAME": {
-      "description": "Enter Your Good Name Of Telegram!",
-      "value": "",
-      "required": false
-    },
-    "OWNER_USERNAME": {
-      "description": "Enter Your Telegram Username Without @!",
-      "value": "",
-      "required": false
-    },
-    "OWNER_ID": {
-      "description": "Enter Your Telegram User ID To Get Full Access Of Your Bot. Go To Rose Bot And Send /id To Get Your Owner User ID. Only One User Can Be Owner Of Bot!",
-      "value": ""
-    },
-    "CO_OWNER_ID": {
-      "description": "Enter Your Co-Owner's Telegram User ID To Get Full Access Of Bot. Go To Rose Bot And Send /id To Get Your Co-Owner User ID. Don't Put Comma ( , ) In Vars Just Give A Space And Put Another User ID!",
-      "value": "",
-      "required": false
-    },
-    "SUDO_USERS": {
-      "description": "Enter Your Sudo User's Telegram User ID To Access Commands Of Bot. Go To Rose Bot And Send /id To Get Your Sudo User ID. Don't Put Comma ( , ) In Vars Just Give A Space And Put Another User ID!",
-      "value": "",
-      "required": false
-    },
-    "DISPLAY_PIC": {
-      "description": "Enter Your Bot Display Pic. Put Telegraph Link!",
-      "value": "",
-      "required": false
-    },
-    "BIO_MSG": {
-      "description": "Enter Your Bot Bio Message To Show In Alive Command!",
-      "value": "",
-      "required": false
-    },
-    "API_ID": {
-      "description": "Enter Your Telegram Api Id. Get It From my.telegram.org!",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "Enter Your Telegram Api Hash. Get It From my.telegram.org!",
-      "value": ""
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-  }]
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }

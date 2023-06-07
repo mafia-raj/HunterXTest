@@ -1,1 +1,1 @@
-worker: python3 -m spambot
+worker: python3 -m LegendGirl
